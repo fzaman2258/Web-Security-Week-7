@@ -15,10 +15,10 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough: ![](./1.gif)
   - [ ] Steps to recreate: 
-        1) Create a file with this format: file_name<JavaScript_Code>
-        2) Make sure that the size of the file is at least 2 MB
-        3) Create a new media file and after uploading, press update
-        4) There will be an error message of the image being too large and the                          JavaScript Code will execute.
+        1. Create a file with this format: file_name<JavaScript_Code>
+        2. Make sure that the size of the file is at least 2 MB
+        3. Create a new media file and after uploading, press update
+        4. There will be an error message of the image being too large and the                          JavaScript Code will execute.
 
 2. XSS:Through authentication in a new post
   - [ ] Summary: 
@@ -27,9 +27,9 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: ![](./2.gif)
   - [ ] Steps to recreate: 
-         1) First make a new post as an admin
-         2) <a onmouseover="alert('I got you!')"> click here </a>
-          3) Save changes and click view post and then the alert will pop up saying "I got you!"
+         1. First make a new post as an admin
+         2. <a onmouseover="alert('I got you!')"> click here </a>
+         3. Save changes and click view post and then the alert will pop up saying "I got you!"
 
 3. (Required) Unauthenticated Stores XSS
   - [ ] Summary: 
@@ -38,8 +38,8 @@ Time spent: **10** hours spent in total
     - Fixed in version:  4.2.1
   - [ ] GIF Walkthrough: ![](./3.gif)
   - [ ] Steps to recreate: 
-        1) Go to wordpress and paste this link in the comment box and post
-        2)<a title='x onmouseover=alert(unescape(/Exploit1%20Sucess/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px
+        1. Go to wordpress and paste this link in the comment box and post
+        2. <a title='x onmouseover=alert(unescape(/Exploit1%20Sucess/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px
 AAAAAAAAAAA
 AAAAAAA
 AAAAAAAA
