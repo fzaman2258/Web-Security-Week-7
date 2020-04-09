@@ -15,10 +15,10 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough: ![](./1.gif)
   - [ ] Steps to recreate: 
-        1.Create a file with this format: file_name<JavaScript_Code>
-        2.Make sure that the size of the file is at least 2 MB
-        3.Create a new media file and after uploading, press update
-        4.There will be an error message of the image being too large and the JavaScript Code will execute.
+        1. Create a file with this format: file_name<JavaScript_Code>
+        2. Make sure that the size of the file is at least 2 MB
+        3. Create a new media file and after uploading, press update
+        4. There will be an error message of the image being too large and the JavaScript Code will execute.
 
 2. XSS:Through authentication in a new post
   - [ ] Summary: 
