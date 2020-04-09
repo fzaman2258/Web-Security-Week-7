@@ -13,7 +13,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: Cross-Site Scripting(XSS) 
     - Tested in version: 4.2
     - Fixed in version: 4.2.10
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](./1.gif)
   - [ ] Steps to recreate: 
         1) Create a file with this format: file_name<JavaScript_Code>
         2) Make sure that the size of the file is at least 2 MB
@@ -25,7 +25,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: Cross-Site Scripting(XSS)
     - Tested in version: 4.2.0
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](./2.gif)
   - [ ] Steps to recreate: 
          1) First make a new post as an admin
          2) <a onmouseover="alert('I got you!')"> click here </a>
@@ -36,7 +36,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types:Cross-Site Scripting (XSS)
     - Tested in version: 4.2
     - Fixed in version:  4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](./3.gif)
   - [ ] Steps to recreate: 
         1) Go to wordpress and paste this link in the comment box and post
         2)<a title='x onmouseover=alert(unescape(/Exploit1%20Sucess/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px
